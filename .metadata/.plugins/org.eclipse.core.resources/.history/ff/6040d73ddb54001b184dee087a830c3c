@@ -1,0 +1,29 @@
+package br.senai.sp.jandira;
+
+import br.senai.sp.jandira.model.Conta;
+
+public class App {
+
+public static void main(String[] args) {
+
+	Conta contaVagnerLima;
+	Conta c2;
+	
+	contaVagnerLima = new Conta();
+	c2 = new Conta();
+	
+	
+	contaVagnerLima.numero = "111-0";
+	contaVagnerLima.titular = "Vagner Augusto dos Santos Lima";
+	contaVagnerLima.tipo = "Corrente;";
+	contaVagnerLima.saldo = 2000.00;
+	contaVagnerLima.ativa = true;
+	
+	System.out.println();
+	
+}
+
+		
+		
+		
+	}
